@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    font-family: "Asap", sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100; */
+}
+
+body {
+    background-color: #e3e6f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #3dc038;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+
+}
+
+
+.header .logo,
+.header .navigation {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.navigation a,
+.logo a {
+    margin: 0 0 0 25px;
+}
+
+.navigation a {
+    padding: 5px;
+}
+
+.navigation #form {
+    border-bottom: 2px solid white;
+}
+
+.navigation a:focus {
+    border-bottom: 2px solid white;
+    transition: ease-in-out 0.3s;
+}
+
+.header p {
+    font-weight: 500;
+    color: white;
+}
+
+
+.main {
+    max-width: 100vw;
+    padding: 100px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 5px 0px;
+}
+
+.main-nav a {
+    margin-left: 5px;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid#aab3df86;
+
+    background-color: white;
+    color: black;
+}
+
+.main-nav a:hover {
+    border: 1px solid#bddfaa86;
+    background-color: #bddfaa86;
+    color: #44444486;
+
+    transition: ease-in-out 0.3s;
+}
+
+.main-nav a:focus {
+    background-color: #3dc038;
+    color: white;
+
+    transition: ease-in-out 0.3s;
+}
+
+.main-content {
+    max-height: 100vh;
+    padding: 50px;
+    text-align: center;
+
+    border-radius: 10px;
+    border: 1px solid#aab3df86;
+    background-color: white;
+}
+
+.main-content form {
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+}
+
+.main-content input {
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid#aab3df86;
+    padding: 10px;
+}

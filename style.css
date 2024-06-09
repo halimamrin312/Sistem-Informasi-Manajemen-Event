@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    font-family: "Asap", sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100; */
+}
+
+body {
+    background-color: #e3e6f1;
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-content {
+    /* padding: 50px; */
+    
+    border-radius: 10px;
+    border: 1px solid#aab3df86;
+    background-color: white;
+}
+.main-content .header {
+    text-align: center;
+    background-color: #6138c0;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.main-content form {
+    max-width: 50vw;
+    min-width: 25vw;
+    max-height: 100vh;
+    min-height: 25vh;
+    padding: 10px;
+}
+
+.main-content form .input {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-content .input input {
+    padding: 10px;
+}
+
+.main-content .input input,
+.main-content .input select {
+    padding: 10px;
+    border: 1px solid #a4acde;
+    ;
+}
+
+.main-content .input select,
+.main-content .input input::placeholder {
+    color: #aab3df86;
+}
+
+.main-content .input label {
+    color: #a4acde;
+    font-weight: bold;
+}
+
+.main-content .input input[type="submit"] {
+    background-color: #3dc038;
+    color: white;
+    cursor: pointer;
+}
+
+.main-content .input a {
+    color: #a4acde;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-content .input[id="lupapass"] {
+    text-align: end;
+}
+.main-content .input[id="alert1"],.main-content .input[id="lupapass"] {
+    font-size: 12px;
+}
