@@ -5,7 +5,7 @@ function loadFormAcara() {
             document.getElementById('content').innerHTML = xhr.responseText;
         }
     };
-    xhr.open('GET', 'form/formacara.php', true);
+    xhr.open('GET', 'formacara.php', true);
     xhr.send();
 }
 

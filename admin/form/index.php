@@ -37,7 +37,7 @@
             <a href="javascript:void(0);" onclick="loadFormAcara()">
                 <p>Form Acara</p>
             </a>
-            <a href="javascript:void(0);" onclick="loadFormPeserta()">
+            <a href="javascript:void(0);" onclick="">
                 <p>Form Peserta</p>
             </a>
             <a href="#">
