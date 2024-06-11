@@ -127,3 +127,17 @@ a {
     border-top: 1px solid#aab3df86;
     padding: 10px;
 }
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: auto auto auto auto;
+}
+table #tablehead{
+    background-color: #3dc0387c;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+td{
+    padding: 10px;
+}

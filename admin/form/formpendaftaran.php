@@ -3,9 +3,9 @@
 <form action="simpanformpendaftaran.php" method="post">
     <p id="judulform">Formulir Pendaftaran</p>
     
-    <input type="number" name="id" id="id" placeholder="id Pendaftaran">
+    <input type="number" name="id" id="id" placeholder="id Pendaftaran" required>
 
-    <select type="text" name="id_peserta" id="id_peserta" placeholder="jeniskelamin">
+    <select type="text" name="id_peserta" id="id_peserta" placeholder="jeniskelamin" required>
         <option value="" disabled selected>Pilih ID Peserta</option>
         <?php
         include '../../koneksi.php';
@@ -21,7 +21,7 @@
         ?>
     </select>
     
-    <select type="text" name="id_acara" id="id_acara" placeholder="jeniskelamin">
+    <select type="text" name="id_acara" id="id_acara" placeholder="jeniskelamin" required>
         <option value="" disabled selected>Pilih ID acara</option>
         <?php
         include '../../koneksi.php';
@@ -37,7 +37,7 @@
         ?>
     </select>
 
-        <input type="date" name="date" id="date" placeholder="Tanggal Pendaftaran">
+        <input type="date" name="date" id="date" placeholder="Tanggal Pendaftaran" required>
 
     <input type="submit" value="SUBMIT">
 

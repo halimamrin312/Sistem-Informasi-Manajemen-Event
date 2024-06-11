@@ -14,7 +14,7 @@
         <div class="logo">
             <img src="https://picsum.photos/25/25" alt="lgo 25 x 25">
             <a href="#">
-                <!-- <p>SISTEM INFORMASI MANAJEMEN EVENT</p> -->
+                <p>SISTEM INFORMASI MANAJEMEN EVENT</p>
             </a>
         </div>
 
@@ -22,7 +22,7 @@
             <a href="../form/index.php" >
                 <p>FORM</p>
             </a>
-            <a href="../report/index.php" id="form">
+            <a href="../report/index.php" id="selected">
                 <p>REPORT</p>
             </a>
             <a href="../../index.php">
@@ -34,18 +34,18 @@
 
     <div class="main">
         <div class="main-nav">
-
-            <a href="javascript:void(0);" onclick="loadFormAcara()">
-                <p>Form Acara</p>
+            
+            <a href="javascript:void(0);" onclick="loadReportAcara()">
+                <p>Report Acara</p>
             </a>
-            <a href="javascript:void(0);" onclick="loadFormPeserta()">
-                <p>Form Peserta</p>
+            <a href="javascript:void(0);" onclick="loadReportPeserta()">
+                <p>Report Peserta</p>
             </a>
-            <a href="javascript:void(0);" onclick="loadFormPendaftaran()">
-                <p>Form Pendaftaran</p>
+            <a href="javascript:void(0);" onclick="loadReportPendaftaran()">
+                <p>Report Pendaftaran</p>
             </a>
-            <a href="javascript:void(0);" onclick="loadFormPembayaran()">
-                <p>Form Pembayaran</p>
+            <a href="javascript:void(0);" onclick="loadReportPembayaran()">
+                <p>Report Pembayaran</p>
             </a>
 
             <!-- <a href="javascript:void(0);" onclick="loadFormDuplicate()">

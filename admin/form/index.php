@@ -14,11 +14,11 @@
         <div class="logo">
             <img src="https://picsum.photos/25/25" alt="lgo 25 x 25">
             <a href="#">
-                <!-- <p>SISTEM INFORMASI MANAJEMEN EVENT</p> -->
+                <p>SISTEM INFORMASI MANAJEMEN EVENT</p>
             </a>
         </div>
         <div class="navigation">
-            <a href="#" id="form">
+            <a href="#" id="selected">
                 <p>FORM</p>
             </a>
             <a href="../report/index.php">

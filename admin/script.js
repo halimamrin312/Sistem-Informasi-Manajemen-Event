@@ -57,3 +57,44 @@ function loadFormDuplicate() {
     xhr.send();
   }
 
+  function loadReportAcara() {
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        document.getElementById("content").innerHTML = xhr.responseText;
+      }
+    };
+    xhr.open("GET", "reportacara.php", true);
+    xhr.send();
+  }
+  function loadReportPeserta() {
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        document.getElementById("content").innerHTML = xhr.responseText;
+      }
+    };
+    xhr.open("GET", "reportpeserta.php", true);
+    xhr.send();
+  }
+  function loadReportPendaftaran() {
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        document.getElementById("content").innerHTML = xhr.responseText;
+      }
+    };
+    xhr.open("GET", "reportpendaftaran.php", true);
+    xhr.send();
+  }
+  function loadReportPembayaran() {
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        document.getElementById("content").innerHTML = xhr.responseText;
+      }
+    };
+    xhr.open("GET", "reportpembayaran.php", true);
+    xhr.send();
+  }
+
