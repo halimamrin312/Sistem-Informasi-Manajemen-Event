@@ -17,11 +17,12 @@
                 <!-- <p>SISTEM INFORMASI MANAJEMEN EVENT</p> -->
             </a>
         </div>
+
         <div class="navigation">
-            <a href="#" id="form">
+            <a href="../form/index.php" >
                 <p>FORM</p>
             </a>
-            <a href="../report/index.php">
+            <a href="../report/index.php" id="form">
                 <p>REPORT</p>
             </a>
             <a href="../../index.php">
@@ -33,6 +34,7 @@
 
     <div class="main">
         <div class="main-nav">
+
             <a href="javascript:void(0);" onclick="loadFormAcara()">
                 <p>Form Acara</p>
             </a>
@@ -45,12 +47,14 @@
             <a href="javascript:void(0);" onclick="loadFormPembayaran()">
                 <p>Form Pembayaran</p>
             </a>
+
             <!-- <a href="javascript:void(0);" onclick="loadFormDuplicate()">
                 <p>Test Allert</p>
             </a> -->
             <!-- <script>
                 loadFormDuplicate();
             </script> -->
+            
         </div>
 
         <div class="main-content" id="content">

@@ -26,11 +26,12 @@ body {
 
 .main-content {
     /* padding: 50px; */
-    
+
     border-radius: 10px;
     border: 1px solid#aab3df86;
     background-color: white;
 }
+
 .main-content .header {
     text-align: center;
     background-color: #6138c0;
@@ -79,6 +80,7 @@ body {
     font-weight: bold;
 }
 
+
 .main-content .input input[type="submit"] {
     background-color: #3dc038;
     color: white;
@@ -94,6 +96,8 @@ body {
 .main-content .input[id="lupapass"] {
     text-align: end;
 }
-.main-content .input[id="alert1"],.main-content .input[id="lupapass"] {
+
+.main-content .input[id="alert1"],
+.main-content .input[id="lupapass"] {
     font-size: 12px;
 }
